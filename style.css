@@ -1,0 +1,63 @@
+body{
+	background-color: rgb(26, 69, 124);
+}
+
+.header{
+	
+	padding-bottom: 2%;
+	margin-bottom: 3%;
+}
+
+#back-btn{
+	background-color: white;
+	height: 30px;
+}
+
+#back-text{
+	padding-top: 10%;
+	font-size: 14px;
+	color: gray;
+	margin-left: 5px;
+}
+
+.hero-company{
+	padding-top: 10%;
+	color: white;
+	font-size:small;
+}
+
+.hero-offer{
+	color: white;
+	font-size:large;
+	margin: 0px;
+}
+
+#menu1{
+	padding-bottom:20%;
+	background-color: white;
+	padding-top: 3%;
+}
+
+.nav-item{
+	width: 50%;
+}
+
+.pills{
+	margin-top: 2%;
+}
+
+
+.hours{
+	border-top:lightgray;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: gray;
+	margin: 0px;
+	font-size: 14px;
+}
+
+.top-hours{
+	margin: 1.5%;
+	font-size: 12px;
+	font-weight: bold;
+}
