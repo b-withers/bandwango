@@ -11,15 +11,15 @@
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	  crossorigin="anonymous">
-
+	<!-- externl jQuery CDN -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 	  crossorigin="anonymous"></script>
 	<!--external css-->
 	<link rel="stylesheet" href="assets/style.css">
 	<title>Eureka Heights</title>
 </head>
-<!--Back Button-->
 
+<!--Back Button-->
 <body>
 	<div class="container-fluid" id="back-btn">
 		<div class="row" id="back-btn">
@@ -75,13 +75,15 @@
 			<div class="container-fluid ticket">
 				<p class="name">Adult - Monir Parikh</p>
 				<button class="btn1 btn btn-secondary float-right" id="redeem"></button>
+
+				//this runs the script to change the button clicked on the confirm redepmtion button green
 				<script>
 					$("#redeem").click(function () {
-
 						$("#redeem").addClass("redeem");
 						$("#bigbutton").addClass("redeem");
 					});
 				</script>
+
 				<p class="valid">Valid Until: Jan 21st 2018, 04:42 pm</p>
 			</div>
 
@@ -108,7 +110,6 @@
 				<button class="btn btn-x btn-secondary float-right fas fa-times fa-2x"></button>
 				<p class="valid" style="color:red">Expired Jan 21st 2018, 04:42 pm</p>
 			</div>
-
 
 			<footer class="footer">
 				<div class="container-fluid text-center">
