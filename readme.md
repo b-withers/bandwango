@@ -10,4 +10,4 @@
 <br>
 <p>This was coded strictly for mobile, as you can see in the .gif below:</p>
 
-<img src="assets/images/function.gif">
+<img style="width: 150px;" src="assets/images/function.gif">
