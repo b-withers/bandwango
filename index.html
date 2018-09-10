@@ -5,21 +5,17 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	  crossorigin="anonymous">
-
-
+	<!-- font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	  crossorigin="anonymous">
-
-
-
-	<link rel="stylesheet" href="style.css">
-
+	<!--external css-->
+	<link rel="stylesheet" href="assets/style.css">
 	<title>Eureka Heights</title>
 </head>
+<!--Back Button-->
 
 <body>
 	<div class="container-fluid" id="back-btn">
@@ -29,7 +25,7 @@
 			</span>
 		</div>
 	</div>
-
+	<!-- Main Header, does not change with dynamic tabs-->
 	<div class="container-fluid header">
 		<div class="container-fluid text-center">
 			<div class="row">
@@ -40,11 +36,11 @@
 		<div class="container-fluid text-center">
 			<div class="row">
 				<p class="container-fluid text-center hero-offer">Flight of (5) 4 oz pours of</p>
-				<p class="container-fluid text-center hero-offer">Any of our Beers</p>
+				<p class="container-fluid text-center hero-offer2">Any of our Beers</p>
 			</div>
 		</div>
 
-		<!-- Nav tabs -->
+		<!-- Dynamic Tabs-->
 		<div class="container-fluid pills">
 			<div class="row">
 				<ul class="container-fluid nav nav-pills text-center">
@@ -60,7 +56,7 @@
 		</div>
 	</div>
 
-	<!-- Tab panes -->
+	<!-- Dynamic Tab Content -->
 	<div class="tab-content">
 
 		<div class="tab-pane fade container-fluid" id="menu1">
@@ -71,51 +67,43 @@
 			<p class="hours">At Nightly Spirits Houston, our haunted pub tours are an experience you wont soon forget</p>
 		</div>
 
-
-
 		<div class="tab-pane container-fluid fade" id="menu2">
 
 			<div class="container-fluid ticket">
 				<p class="name">Adult - Monir Parikh</p>
-					<button class="btn btn-secondary float-right"></button>
-					<p>Valid Until: Jan 21st 2018, 04:42 pm</p>
+				<button class="btn btn-secondary float-right"></button>
+				<p class="valid">Valid Until: Jan 21st 2018, 04:42 pm</p>
 			</div>
 
 			<div class="container-fluid ticket">
-					<p class="name">Adult - Monir Parikh</p>
-						<button class="btn btn-secondary float-right"></button>
-						<p>Valid Until: Jan 21st 2018, 04:42 pm</p>
-				</div>
+				<p class="name">Adult - Monir Parikh</p>
+				<button class="btn btn-secondary float-right"></button>
+				<p class="valid">Valid Until: Jan 21st 2018, 04:42 pm</p>
+			</div>
 
-				<div class="container-fluid ticket">
-						<p class="name">Adult - Monir Parikh</p>
-							<button class="btn btn-secondary float-right"></button>
-							<p>Valid Until: Jan 21st 2018, 04:42 pm</p>
-					</div>
+			<div class="container-fluid ticket">
+				<p class="name">Adult - Monir Parikh</p>
+				<button class="btn btn-secondary float-right"></button>
+				<p class="valid">Valid Until: Jan 21st 2018, 04:42 pm</p>
+			</div>
 
-					<div class="container-fluid ticket">
-							<p class="name">Adult - Monir Parikh</p>
-								<button class="btn btn-secondary float-right"></button>
-								<p>Valid Until: Jan 21st 2018, 04:42 pm</p>
-						</div>
+			<div class="container-fluid ticket">
+				<p class="name">Adult - Monir Parikh</p>
+				<button class="btn btn-secondary float-right fas fa-check"></button>
+				<p class="valid">Valid Until: Jan 21st 2018, 04:42 pm</p>
+			</div>
 
-						<div class="container-fluid ticket">
-								<p class="name">Adult - Monir Parikh</p>
-									<button class="btn btn-secondary float-right"></button>
-									<p>Valid Until: Jan 21st 2018, 04:42 pm</p>
-							</div>
-
+			<div class="container-fluid ticket">
+				<p class="name">Adult - Monir Parikh</p>
+				<button class="btn btn-x btn-secondary float-right fas fa-times fa-2x"></button>
+				<p class="valid" style="color:red">Expired Jan 21st 2018, 04:42 pm</p>
+			</div>
 
 
 		</div>
 
 
-
-
-
-
 	</div>
-
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
